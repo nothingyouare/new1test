@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="escape" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.press.escape" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>Escape</name>
 	<description>escape</description>
 	<author></author>
@@ -9,7 +9,7 @@
 
 	<preference name="android-targetSdkVersion" value="29" />
 
-	<preference name="orientation" value="default" />
+	<preference name="orientation" value="portrait" />
 	<preference name="fullscreen" value="true" />
 	<preference name="DisallowOverscroll" value="true" />
 	<preference name="AllowInlineMediaPlayback" value="true" />
@@ -28,6 +28,7 @@
 		<variable name="ADMOB_APP_ID" value="ca-app-pub-3940256099942544~3347511713" />
 
 	</plugin>
+
 	
 	<engine name="android" />
 </widget>
